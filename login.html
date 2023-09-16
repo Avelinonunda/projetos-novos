@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/outroslogin.css">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+               
+            </div>
+            <hr>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p> Seja benvindo/a novamente.Faça login para acessar a sua conta.</p>
+                <form action="login.php" method="post">
+                    <div class="campo">
+                        <img src="imagens/user.png" alt="">
+                        <input type="email" id="email" autocomplete="email" required>
+                        <label for="email">email</label>
+                    </div>
+                    <div class="campo">
+                        <img src="imagens/senha.png" alt="">
+                        <input type="password" name="" id="senha" autocomplete="current-password" required>
+                        <label for="senha">Senha</label>
+                    </div>
+                    <input type="submit" id="submit" value="Enviar">
+                    <a href="login.html">Esqueci a senha <img src="imagens/mail.png" alt="" width="20px"></a>
+                </form>
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>
